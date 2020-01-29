@@ -11,5 +11,12 @@ files add
     git push heroku master
 
 
+for further deploy
+
+    git add .
+    git commit -m "commit"
+    git push heroku master
+
+
 
 
