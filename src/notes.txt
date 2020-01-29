@@ -1,0 +1,15 @@
+// HEROKU
+
+files add
+
+    server.js, express npm.
+    engines, "start": "node server.js",   "postinstall": "ng build --aot --prod" in package.json.
+
+1st (One time)
+    heroku create <App Name>
+    heroku git:remote -a <App Name> // make repository in HEROKU
+    git push heroku master
+
+
+
+
