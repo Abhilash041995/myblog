@@ -1,0 +1,64 @@
+<nav id="colorlib-main-nav" role="navigation">
+    <a class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+    <div class="js-fullheight colorlib-table">
+        <div class="colorlib-table-cell js-fullheight">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="search" placeholder="Enter any key to search...">
+                        <button type="submit" class="btn btn-primary"><i class="icon-search3"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul id="menuUl">
+                        <li id="hometab" (click)="menuClick('hometab')" class="active"><a [routerLink]="['']">Home</a></li>
+                        <li  id="servicestab" (click)="menuClick('servicestab')"><a >Services</a></li>
+                        <li id="worktab" (click)="menuClick('worktab')"><a >Work</a></li>
+                        <li id="gamestab" (click)="menuClick('gamestab')"><a
+                             [routerLink]="['/some-games']">Games</a></li>
+                        <li id="drawingstab" (click)="menuClick('drawingstab')"><a [routerLink]="['/drawings']">Drawings</a></li>
+                        <li id="blogtab" (click)="menuClick('blogtab')"><a >Blog</a></li>
+                        <li id="abouttab" (click)="menuClick('abouttab')"><a >About</a></li>
+                        <li id="contacttab" (click)="menuClick('contacttab')"><a [routerLink]="['/contact-me']">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="head-title">Works</h2>
+                    <a href="../../../assets/images/projects/spiraldesk/spiraldesk.png" class="gallery image-popup-link text-center" style="background-image: url(../../../assets/images/projects/spiraldesk/1024-1024.png);">
+                        <span><i class="icon-search3"></i></span>
+                    </a>
+                    <!-- <a href="../../../assets/images/work-2.jpg" class="gallery image-popup-link text-center" style="background-image: url(../../../assets/images/work-2.jpg);">
+                        <span><i class="icon-search3"></i></span>
+                    </a>
+                    <a href="../../../assets/images/work-3.jpg" class="gallery image-popup-link text-center" style="background-image: url(../../../assets/images/work-3.jpg);">
+                        <span><i class="icon-search3"></i></span>
+                    </a>
+                    <a href="../../../assets/images/work-4.jpg" class="gallery image-popup-link text-center" style="background-image: url(../../../assets/images/work-4.jpg);">
+                        <span><i class="icon-search3"></i></span>
+                    </a> -->
+                </div>
+                <!-- Drawings -->
+                <div class="col-md-12">
+                        <h2 class="head-title">Drawings</h2>
+                        <a href="../../../assets/images/drawings/mayanadhi.jpg" class="gallery image-popup-link text-center" style="background-image: url(../../../assets/images/drawings/mayanadhi.jpg);">
+                            <span><i class="icon-search3"></i></span>
+                        </a>
+                        <a href="../../../assets/images/drawings/queen.jpg" class="gallery image-popup-link text-center" style="background-image: url(../../../assets/images/drawings/queen.jpg);">
+                            <span><i class="icon-search3"></i></span>
+                        </a>
+                        <a href="../../../assets/images/drawings/beauty.jpg" class="gallery image-popup-link text-center" style="background-image: url(../../../assets/images/drawings/beauty.jpg);">
+                            <span><i class="icon-search3"></i></span>
+                        </a>
+                        <a href="../../../assets/images/drawings/joker.jpg" class="gallery image-popup-link text-center" style="background-image: url(../../../assets/images/drawings/joker.jpg);">
+                            <span><i class="icon-search3"></i></span>
+                        </a>
+                    </div>
+                <!-- ENDS -->
+            </div>
+        </div>
+    </div>
+</nav>
